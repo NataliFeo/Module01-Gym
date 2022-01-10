@@ -21,6 +21,11 @@ body {
     padding-bottom: 27px;
 }
 
+.header-left {
+    display: flex;
+    gap: 92px;
+}
+
 .header-logo {
     display: block;
     background-image: url(../images/logo.svg);
@@ -602,6 +607,12 @@ footer {
     justify-content: space-between;
     padding-top: 48px;
     padding-bottom: 21px;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 72px;
 }
 
 .footer-logo {
